@@ -1,0 +1,15 @@
+项目包含以下文件：
+1. springboot+dubbo+nacos+mybatisplus整合的项目代码（dubbonacosmybatisplus）；
+2. springboot+dubbo+nacos+mybatisplus整合的项目说明文档（word版）；
+3. springboot+dubbo+nacos+mybatisplus整合的项目说明文档（PDF版）；
+4. dubbonacosmybatisplus项目所需的数据库；
+5. nacos的压缩包
+
+项目运行（环境包括jdk1.8、MySQL5.5.53）：
+1. 导入数据库，数据库名称为learn；
+2. idea中导入项目dubbonacosmybatisplus；
+3. 启动nacos
+    3.1 解压nacos的压缩文件；
+    3.2 解压后得到的文件夹包括bin，进入bin目录，双击startup.cmd，即可启动nacos；
+4. 分别运行xxxx-provider模块和xxxx-consumer模块中的启动类。
+最后在浏览器中，根据项目中的配置，输入ip、端口和映射路径即可。

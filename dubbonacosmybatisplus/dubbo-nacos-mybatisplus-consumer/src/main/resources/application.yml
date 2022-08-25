@@ -1,0 +1,16 @@
+server:
+  address:
+  port: 9090
+spring:
+  application:
+    name: dubbo-nacos-mp-consumer
+nacos:
+  config:
+    server-addr: localhost:8848
+dubbo:
+  application:
+    name: dubbo-nacos-mp-consumer
+  registry:
+    address: nacos://127.0.0.1:8848
+
+
